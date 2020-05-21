@@ -1,7 +1,7 @@
-#New Controller
+# New Controller
 
-##Overview
+## Overview
 
-##Instructions
+## Instructions
 
-##Links
+## Links

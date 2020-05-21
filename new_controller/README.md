@@ -1,6 +1,6 @@
-#New Controller
+# New Controller
 general description of your controller.
 
-##Instructions
+## Instructions
 
-##Links
+## Links
