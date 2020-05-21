@@ -1,13 +1,15 @@
 # WolfControllers
 game controllers developed using free and open source tools by TheBlackWolfPack
 
-## open source and DIY
-All the controllers are developed as a community project of the YouTube and twitch channel "TheBlackWolfPack". Therefore all designs and software in this repository is free to use, make and modify. This project aims to create an open plattform for game controllers that can be highly individualized and self-made by anyone.
+## about this branch
+The use of this branch is the development of totally new controllers.
 
-## documentation
-Detailled documentation on each and every controllers can be found on the Github Wiki https://github.com/TheBlackWolfPack/WolfControllers/wiki
+## adding a new controller and help in development
+If you like to add a controller you've created or if you want to help in the development of another controller in this branch get in touch with the team to gain access. The team will probably want to get to know you before access will be granted though. So be patient and nice whenever a team member wants to get in touch. :-)
+Every kind of controller should reside in their own sub directory. A template for the directory structure is included in this branch in the "new_controller" directory. Do NOT edit that directory! Crate a copy and rename it to whatever name suits your new controller.
 
-## watch live
-On the YouTube and twitch channel we will stream stages of design, simulation and making of the controllers whenever we can make up the time for it.
-Twitch: https://twitch.tv/theblackwolfpack
-YouTube:https://www.youtube.com/channel/UCybBZklts9ZAeHsiiW_aS8A
+## publishing
+Once your new controller design and the corresponding wiki page template are finished move your controller directory into the "publish" folder. Once there it will be reviewed by a team member and moved to the master branch if no issues are found. Be patient with the team as it may take a bit of time until someone is able to do review.
+
+## license
+All data in this project are published under the GPLv3. So everyone can use and modify the files on their own purpose. If you do not agree with this, don't publish your work here.
