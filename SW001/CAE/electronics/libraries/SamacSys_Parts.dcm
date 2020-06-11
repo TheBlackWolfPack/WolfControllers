@@ -1,0 +1,15 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NE555DR
+D Single Precision Timer
+K
+F http://www.ti.com/lit/ds/symlink/ne555.pdf
+$ENDCMP
+#
+$CMP RK14K12C0A1S
+D Potentiometers DUAL 10K
+K
+F https://www.alps.com/prod/info/E/HTML/Potentiometer/RotaryPotentiometers/RK14K12/RK14K12C0A1S.html
+$ENDCMP
+#
+#End Doc Library
