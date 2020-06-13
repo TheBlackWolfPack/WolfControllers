@@ -31,43 +31,29 @@ F 9 "RK14K12C0A1S" H 6900 2150 50  0001 L CNN "Manufacturer_Part_Number"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5950 2850 5450 2850
+	5950 2850 5700 2850
 Wire Wire Line
 	5950 3050 5450 3050
 Wire Wire Line
-	5950 3250 5650 3250
+	7050 2750 7300 2750
 Wire Wire Line
-	7050 2750 7700 2750
+	7300 2750 7300 2850
 Wire Wire Line
-	7700 2750 7700 2850
+	7050 2850 7300 2850
+Connection ~ 7300 2850
 Wire Wire Line
-	7050 2850 7700 2850
-Connection ~ 7700 2850
-Wire Wire Line
-	7700 2850 7700 3550
-Wire Wire Line
-	5650 3250 5650 3550
-Connection ~ 5650 3250
-Wire Wire Line
-	5650 3250 5450 3250
-Wire Wire Line
-	5650 3550 6600 3550
+	7300 2850 7300 3000
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0101
 U 1 1 5EE2582F
-P 6600 3600
-F 0 "#PWR?" H 6600 3350 50  0001 C CNN
-F 1 "GND" H 6605 3427 50  0000 C CNN
-F 2 "" H 6600 3600 50  0001 C CNN
-F 3 "" H 6600 3600 50  0001 C CNN
-	1    6600 3600
+P 7300 3000
+F 0 "#PWR0101" H 7300 2750 50  0001 C CNN
+F 1 "GND" H 7305 2827 50  0000 C CNN
+F 2 "" H 7300 3000 50  0001 C CNN
+F 3 "" H 7300 3000 50  0001 C CNN
+	1    7300 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6600 3600 6600 3550
-Connection ~ 6600 3550
-Wire Wire Line
-	6600 3550 7700 3550
 Text GLabel 2550 1650 0    50   Output ~ 0
 3V3
 Wire Wire Line
@@ -88,9 +74,9 @@ Text GLabel 3450 1650 2    50   Output ~ 0
 5V
 Wire Wire Line
 	3450 1650 3250 1650
-Text GLabel 5450 2850 0    50   Input ~ 0
-3V3
 Text GLabel 5450 3250 0    50   Input ~ 0
+3V3
+Text GLabel 5450 2850 0    50   Input ~ 0
 GND
 Text GLabel 5450 3050 0    50   Output ~ 0
 SIG_X
@@ -109,4 +95,16 @@ F 3 "~" H 2950 3050 50  0001 C CNN
 	1    2950 3050
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	5450 3250 5950 3250
+Wire Wire Line
+	7300 2750 7300 2350
+Wire Wire Line
+	7300 2350 5700 2350
+Wire Wire Line
+	5700 2350 5700 2850
+Connection ~ 7300 2750
+Connection ~ 5700 2850
+Wire Wire Line
+	5700 2850 5450 2850
 $EndSCHEMATC
