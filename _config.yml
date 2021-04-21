@@ -3,3 +3,4 @@ name: "Wolf Controllers"
 description: "Game controllers developed using free and open source tools"
 title: "Wolf Controllers"
 url: "https://theblackwolfpack.github.io/WolfControllers/"
+markdown: kramdown
