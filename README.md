@@ -1,5 +1,4 @@
-# WolfControllers
-game controllers developed using free and open source tools by TheBlackWolfPack
+Game controllers developed using free and open source tools by TheBlackWolfPack
 
 ## open source and DIY
 All the controllers are developed as a community project of the YouTube and twitch channel "TheBlackWolfPack". Therefore all designs and software in this repository is free to use, make and modify. This project aims to create an open plattform for game controllers that can be highly individualized and self-made by anyone.
