@@ -11,4 +11,4 @@ On the YouTube and twitch channel we will stream stages of design, simulation an
 
 ## our controllers in overview
 [SW001](https://theblackwolfpack.github.io/WolfControllers/SW001) - steering wheel Base  
-[SW002](https://theblackwolfpack.github.io/WolfControllers/SW002) - steering wheel inspired by what is used on real cars and trucks
+[SW002](https://theblackwolfpack.github.io/WolfControllers/SW003) - steering wheel inspired by what is used on real cars and trucks
